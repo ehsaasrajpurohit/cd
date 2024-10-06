@@ -10,3 +10,9 @@ extern char yyval;
 . { return yytext[0]; }
 %%
 int yywrap() { return 1; }
+
+/* 
+Delete This Before Executing
+i/p ->
+a=b+c;
+*/
